@@ -1,0 +1,311 @@
+@media screen and (max-width:1600px)
+
+	{
+
+		#quadrado{
+			float:left;
+			width:450px;
+			height:550px;
+			position:relative;
+			margin:auto;
+			animation-name: colores;
+			animation-duration: 7s;
+			animation-iteration-count: infinite;
+			margin-left:20%;
+			box-shadow:10px 10px 50px;
+			display:block;
+
+			
+		}
+
+		@keyframes colores 
+		{
+			0%   {background-color:#0B1736;}
+			25%  {background-color:#671B4E	;}
+			50%  {background-color:	#0B1736;}
+			75%  {background-color:#671B4E	;}
+			100% {background-color:	#0B1736;}
+		}
+		#quadrado2{
+			
+			display:block;
+			float:left;
+			width:426px;
+			height:550px;
+			position:absolute;
+			background-image:url(../img/wallpaper4.jpg);
+			background-attachment:fixed;
+			background-repeat:no-repeat;
+			background-size:82%;
+			margin-left:48%;
+			box-shadow:10px 10px 50px;
+			
+
+		}
+		
+		
+		body{
+			margin:0px;
+			background-attachment:fixed;
+			background-size:100%;
+			background-repeat:no-repeat;
+			background-color:#000;
+		}
+		img.background {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			z-index: -1;
+			filter: blur(6px);
+			
+		}
+
+
+		
+		img.background {
+			z-index: -1;
+			margin:0px;
+			background-attachment:fixed;
+			background-size:110%;
+			background-repeat:no-repeat;
+			filter: blur(10px);
+		}
+		#oselec ul {
+			list-style:none;
+			padding:0px0px;
+			
+
+		}
+
+		#oselec ul li{
+			float:left;
+			line-height:20px;
+			padding:0px 0px;
+			font-size:19px;
+			text-decoration:none;
+			display:block;
+			margin-left:-0px;
+
+			
+		}
+		#sexo{
+			position:absolute;
+			margin-left:225px;
+		}
+		.button {
+			border: none;
+			color: #fff;
+			padding: 5px 40px;
+			background-color:#fff1;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 18px;
+			transition-duration: 0.2s;
+			cursor: pointer;
+			font-family:century gothic;
+			font-weight:bold;
+			border:2px solid #fff;
+
+		}
+
+		.button:hover {
+			background-color:#0A0C17;
+			color:#fff;
+			}
+		#buton{
+			position:absolute;
+			float:left;
+			margin-top:45px;
+			margin-left:70px;
+		}
+		#buton2{
+			margin-top:45px;
+			margin-left:240px;
+			float:left;
+			position:absolute;
+		}
+		input[type=text] {
+			width: 100%;
+			padding: 7px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: 3px solid #ccc9;
+			transition: 0.5s;
+			outline: none;
+			line-height:0px;
+		}
+		input[type=password] {
+			width: 100%;
+			padding: 7px 10px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: 3px solid #ccc9;
+			transition: 0.5s;
+			outline: none;
+			line-height:0px;
+		}
+		#imagem1{
+			position:absolute;
+			margin-top:70px;
+			margin-left:136px;
+		}
+	}
+
+@media screen and (max-width:320px){
+		
+		
+		body{
+			margin:0px;
+			background-attachment:fixed;
+			background-size:100%;
+			background-repeat:no-repeat;
+			background-color:#000;
+		}
+		
+			@keyframes colores 
+		{
+			0%   {background-color:#0B1736;}
+			25%  {background-color:#671B4E	;}
+			50%  {background-color:	#0B1736;}
+			75%  {background-color:#671B4E	;}
+			100% {background-color:	#0B1736;}
+		}
+		
+		
+		#quadrado2{
+				
+				
+				display:none;
+				
+			
+
+			}
+	
+	#quadrado{
+		float:left;
+		width:400px;
+		height:550px;
+		position:relative;
+		margin:auto;
+		animation-name: colores;
+		animation-duration: 7s;
+		animation-iteration-count: infinite;
+		margin-left:0px;
+		box-shadow:10px 10px 50px;
+       display:block;
+		}
+
+	
+		
+		
+		img.background 
+		{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			z-index: -1;
+			filter: blur(6px);
+			
+		}
+
+
+		
+		img.background {
+			z-index: -1;
+			margin:0px;
+			background-attachment:fixed;
+			background-size:200%;
+			background-repeat:no-repeat;
+			filter: blur(10px);
+		}
+		#oselec ul {
+			list-style:none;
+			padding:0px0px;
+			
+
+		}
+
+		#oselec ul li{
+			float:left;
+			line-height:20px;
+			padding:0px 0px;
+			font-size:19px;
+			text-decoration:none;
+			display:block;
+			margin-left:-0px;
+
+			
+		}
+		#sexo{
+			position:absolute;
+			margin-left:225px;
+		}
+		.button {
+			border: none;
+			color: #fff;
+			padding: 5px 40px;
+			background-color:#fff1;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 18px;
+			transition-duration: 0.2s;
+			cursor: pointer;
+			font-family:century gothic;
+			font-weight:bold;
+			border:2px solid #fff;
+
+		}
+
+		.button:hover {
+			background-color:#0A0C17;
+			color:#fff;
+			}
+		#buton{
+			position:absolute;
+			float:left;
+			margin-top:45px;
+			margin-left:30px;
+		}
+		#buton2{
+			margin-top:45px;
+			margin-left:220px;
+			float:left;
+			position:absolute;
+		}
+		input[type=text] {
+			width: 100%;
+			padding: 5px 6px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: 3px solid #ccc9;
+			transition: 0.5s;
+			outline: none;
+			line-height:0px;
+		}
+		input[type=password] {
+			width: 100%;
+			padding: 5px 6px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: 3px solid #ccc9;
+			transition: 0.5s;
+			outline: none;
+			line-height:0px;
+		}
+		#imagem1{
+			
+			position:absolute;
+			margin-top:70px;
+			margin-left:116px;
+		}
+		
+		
+		
+		
+	}

@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../img/back1.jpg");
+}
+table {
+    text-align: center;
+    font-family: lato;
+    color: #284b81;
+    margin-top: 80px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 350px;
+    background-color: #fff;
+    padding: 20px 30px 20px 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+table td {
+    border: none;
+}
+
+table td:nth-child(3){
+    width: 150px;
+}
+table td:nth-child(2){
+    width: 130px;
+}
+
+table tr:nth-child(even) {
+    color: #b72057;
+}
+input[type="submit"],
+input[type="button"]{
+    cursor: pointer;
+    font-family: lato;
+    color: #6f6f6f;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 45px;
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+input[type="button"]{
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover{
+    background-color: #6f6f6f;
+    color: #fff;
+}

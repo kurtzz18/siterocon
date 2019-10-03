@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/trabs.css">
 
     <title>3º Info - Official Website</title>
 </head>
 
-<body style="height:2000px" id="corpo">
+<body style="height:1000px" id="corpo">
 
     <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
         <div class="container">
@@ -28,13 +29,13 @@
             <div class="collapse navbar-collapse" id="navbarSite">
                 <ul class="navbar-nav  mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre nós</a>
+                        <a class="nav-link" href="index.html">Sobre nós</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Galeria</a>
+                        <a class="nav-link" href="galeria.html">Galeria</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Alguns trabalhos</a>
+                        <a class="nav-link" href="trabs.html">Alguns trabalhos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="alunos.html">Os alunos</a>
@@ -56,8 +57,89 @@
         </div>
     </nav>
 
+    <div class="row" style="margin-top:120px;">
+
+        <div class="col-md-12 d-flex justify-content-center mb-5">
+
+            <button type="button" class="btn btn-outline-dark waves-effect filter" data-rel="all"
+                style="margin:5px;">Todos</button>
+            <button type="button" class="btn btn-outline-dark waves-effect filter" data-rel="1" style="margin:5px;">2º
+                Ano</button>
+            <button type="button" class="btn btn-outline-dark waves-effect filter" data-rel="2" style="margin:5px;">3º
+                Ano</button>
+
+        </div>
+
+    </div>
+
+    <div class="gallery justfy-center" id="gallery">
+
+        <div class="mb-3 pics animation all 2 image">
+            <img class="img-fluid " src="img/quizmat.png" alt="Card image cap">
+            <div class="txt text-center justfy-center">
+                <h1>Quiz de Matemática</h1>
+                <p>Intuito:Realizar conexão CRUD com o Banco</br>Feito por: Luan Pessoa</br></br></p>
+            </div>
+        </div>
+
+        <div class="mb-3 pics animation all 1 image">
+            <img class="img-fluid" src="img/prontosocorro.png" alt="Card image cap">
+            <div class="txt text-center justfy-center">
+                <h1>Site do Pronto Socorro</h1>
+                <p>Intuito:Criar um site utilizando html e css, visando a estética</br>Feito por: Luan Pessoa & Antônio Souza</br></br></p>
+            </div>
+        </div>
+
+        <div class="mb-3 pics animation all 1 image">
+            <img class="img-fluid" src="img/fanite.png" alt="Card image cap">
+            <div class="txt text-center justfy-center">
+                <h1>Site Fanite</h1>
+                <p>Intuito:Criar um site utilizando html e css, visando a estética</br>Feito por: Lucas Lopes & Marina Shimano & Mateus Lima</br></br></p>
+            </div>
+        </div>
+
+        <div class="mb-3 pics animation all 2 image">
+            <img class="img-fluid" src="img/quizmarvel.png" alt="Card image cap">
+            <div class="txt text-center justfy-center">
+                <h1>Quiz da Marvel</h1>
+                <p>Intuito:Realizar conexão CRUD com o Banco</br>Feito por: Douglas Kurtz</br></br></p>
+            </div>
+        </div>
+
+        <div class="mb-3 pics animation all 2 image">
+            <img class="img-fluid" src="img/carnaval.png" alt="Card image cap">
+            <div class="txt text-center justfy-center">
+                <h1>Carnaval 2019 - Votação</h1>
+                <p>Intuito:Realizar um sistema de votação para o carnaval de 2019</br>Feito por: Luan Pessoa & Antônio Souza</br></br></p>
+            </div>
+        </div>
+
+        <div class="mb-3 pics animation all 1 image">
+            <img class="img-fluid" src="img/seaofthieves.png" alt="Card image cap">
+            <div class="txt text-center justfy-center">
+                <h1>Site do Sea of Thieves</h1>
+                <p>Intuito:Criar um site utilizando html e css, visando a estética</br>Feito por: Luan Pessoa & Antônio Souza</br></br></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(function () {
+            var selectedClass = "";
+            $(".filter").click(function () {
+                selectedClass = $(this).attr("data-rel");
+                $("#gallery").fadeTo(100, 0.1);
+                $("#gallery div").not("." + selectedClass).fadeOut().removeClass('animation');
+                setTimeout(function () {
+                    $("." + selectedClass).fadeIn().addClass('animation');
+                    $("#gallery").fadeTo(300, 1);
+                }, 300);
+            });
+        });
+    </script>
     <div class="container-fluid">
-        
+
         <div class="row">
             <div class="col-12 mb-3">
                 <hr>
@@ -75,11 +157,14 @@
             <div class="col-sm-4">
                 <h3 class="text-center">Menu</h3>
                 <div class="list-group text-center">
-                    <a href="" class="list-group-item list-group-item-action list-group-item-warning">Galeria</a>
-                    <a href="" class="list-group-item list-group-item-action list-group-item-warning">Alguns
+                    <a href="galeria.html"
+                        class="list-group-item list-group-item-action list-group-item-warning">Galeria</a>
+                    <a href="trabs.html" class="list-group-item list-group-item-action list-group-item-warning">Alguns
                         Trabalhos</a>
-                    <a href="" class="list-group-item list-group-item-action list-group-item-warning">Os alunos</a>
-                    <a href="#corpo" class="list-group-item list-group-item-action list-group-item-warning">Início</a>
+                    <a href="alunos.html" class="list-group-item list-group-item-action list-group-item-warning">Os
+                        alunos</a>
+                    <a href="index.html"
+                        class="list-group-item list-group-item-action list-group-item-warning">Início</a>
                 </div>
             </div>
             <div class="col-sm-4">

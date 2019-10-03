@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/cidade.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#Layer_1 {
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#btn_voltar {
+    position: fixed;
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    right: 20px;
+    bottom: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.1s linear;
+    z-index: 12;
+}
+
+#btn_voltar:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#formulario {
+    position: fixed;
+    font-family: calibri;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 250px;
+    z-index: 10;
+}
+
+#form_alter {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+.cod {
+    position: relative;
+    color: #000;
+    outline: none;
+    border: none;
+    width: 60px;
+    border-radius: 5px;
+    padding: 3px 5px 3px 5px;
+    background: #fff;
+    font-size: 16px;
+    cursor: text;
+    transition: 0.2s linear;
+    text-align: center;
+}
+
+.cod::placeholder {
+    font-size: 12px;
+}
+
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+textarea {
+    resize: none;
+    position: relative;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px dashed #fff;
+    padding: 5px 50px 5px 10px;
+    background: rgba(255, 255, 255, 0.4);
+    ;
+    font-size: 16px;
+    cursor: text;
+    transition: 0.2s linear;
+    margin: 5px;
+}
+
+input[type="radio"] {
+    position: relative;
+    left: 240px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    position: relative;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 90px;
+    border-radius: 5px;
+    padding: 3px;
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+input[type="submit"]:hover {
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+select {
+    position: relative;
+    margin: 0px 10px 0px 10px;
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    outline: none;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+select option {
+    color: #333;
+}
+
+.container {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    left: 230px;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 10;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #03426b;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #03426b;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+    top: 4px;
+    left: 4px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: white;
+}

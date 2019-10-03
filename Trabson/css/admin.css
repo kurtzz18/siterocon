@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/cidade.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}   
+
+#Layer_1{
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#btn_voltar{
+    position: fixed;
+    display: none;
+    background: rgba(0,0,0,0.5);
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    right: 20px;
+    bottom: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.1s linear;
+    z-index: 10;
+}
+
+#btn_voltar:hover{
+    background: rgba(0,0,0,0.9);
+}
+
+h1{
+    color:#fff;
+    letter-spacing: 5px;
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#botoes_adm{
+    margin-top: 20px;
+}
+
+.botao_opc{
+    position: relative;
+    margin-top: 25px;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 350px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.4);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.botao_opc:hover{
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+	top: -30px;
+}
+
+#img_quiz {
+    position: relative;
+    font-size: 200px;
+    color: #fff;
+    font-family: 'calibri';
+    transition: 0.2s linear;
+}
+
+#boas_vindas {
+    position: relative;
+    font-family: calibri;
+    padding-top: 50px;
+    background-color: rgba(0,0,0,0.9);
+	top:-20px;
+    width: 100vw;
+    height:100px;
+    box-shadow: 10px 10px 10px rgba(12,12,0,0.5);
+}
+
+a{
+    text-decoration: none;
+    float: right;
+    margin-right: 50px;
+    margin-top: -40px;
+    font-size: 25px;
+    font-family: 'calibri';
+    color: #fff;
+    transition: 0.1s linear;
+}
+
+a:hover{
+    color: rgba(255,255,255,0.7);
+}
+
+#listar{
+    position: relative;
+    background-color: rgba(0,0,0,0.9);
+    box-shadow: 10px 10px 10px rgba(12,12,0,0.5);
+    width: 100%;
+    height: auto;
+    top: 50px;
+    display: none;
+}
+
+.respostas{
+    color: rgba(255,255,255,0.7);
+}
+
+#table_listar{
+    width: 100%;
+    position: relative;
+    color:#fff;
+    padding: 20px 0px 40px 0px;
+    font-size: 20px;
+	text-align:center;
+}
+
+td{
+    padding: 10px;
+}
+
+#titulo_tabela{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#titulo_pergunta{
+    border-top: 1px solid #fff;
+    font-size: 22px;
+    color: rgba(255,255,255,0.7);
+    font-weight: bold;
+    font-family: monospace;
+}
+
+tr:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+
+#table_alterar{
+    position: relative;
+    width: 100%;
+    color:#fff;
+    padding: 20px 0px 40px 0px;
+    font-size: 20px;
+    display: block;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: none;
+}
+
+#btn_quiz{
+    float: left;
+    margin-left: 50px;
+}

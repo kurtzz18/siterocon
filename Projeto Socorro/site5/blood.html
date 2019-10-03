@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="descripition" content="Trabalho, ajuda, santa">
+    <meta name="keywords" content="Help, Socorros, Primeiros-Socorros, Saúde">
+    <meta name="author" content="Antonio, Luan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="Utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/blood/blood.css" />
+    <link rel="stylesheet" type="text/css" href="css/button.css" />
+    <link rel="stylesheet" type="text/css" href="css/blood/carregamento.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <title>First help</title>
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="indicator">
+            <svg width="16px" height="12px">
+                <polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+                <polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+            </svg>
+        </div>
+    </div>
+    <div class="navegacao">
+        <div class="links">
+            <a href="water.html">
+                <i class="fas fa-swimming-pool"></i>
+            </a>
+        </div>
+        <div class="links">
+            <a href="fire.html">
+                <i class="fas fa-fire"></i>
+            </a>
+        </div>
+        <div class="links">
+            <a href="bolt.html">
+                <i class="fas fa-bolt"></i>
+            </a>
+        </div>
+    </div>
+    <header>
+        <center>
+            <div class="trapezio"></div>
+        </center>
+        <div id="barra">
+            <img src="img/logo.png" id="logo">
+        </div>
+        <div id="contato">
+            <a href="contato.html"><i class="fas fa-phone"></i></a>
+        </div>
+        <center>
+            <nav>
+                <a href="index.html">HOME</a>
+            </nav>
+        </center>
+    </header>
+    <section>
+        <div class="secbeca">
+            <div class="waterfig">
+                <i class="fas fa-tint"></i>
+            </div>
+        </div>
+        <div class="conteudo">
+            <div class="cont1">
+                <h1>Primeiros socorros em casos de cortes</h1><br />
+
+                Os cortes são ferimentos que acontecem com frequência em casa. Existem diversas formas de se machucar, seja com uma faca na cozinha, escorregando no chão molhado, pisando em um caco de vidro ou esbarrando em objetos pontudos. É importante saber cuidar do ferimento para que ele não infeccione<br /><br />
+            </div>
+            <div class="cont1">
+
+                <h2>Primeiros socorros em cortes superficiais</h2><br />
+                A primeira coisa a ser feita é ter certeza de que a ferida não é grave. Em seguida deve-se lavar as mãos com água e sabão;<br />
+                Lave a ferida com muito cuidado com água e sabão. Certifique-se de que o local ficou bem limpo e livre de partículas que poderiam causar infecção;<br />
+                Aplique um anti-séptico e seque o local em volta da ferida;<br />
+                De acordo com a lesão, coloque uma gaze ou pano limpo para cobrir o ferimento. Não use algodão, pois as fibras do material podem colar na ferida, provocando novamente sangramento ao retirar o curativo; <br />
+                Mantenha o corte limpo e seco para facilitar a cicatrização. <br /><br />
+            </div>
+            <div class="cont1">
+
+                <h2>Primeiros socorros em cortes profundos</h2><br />
+                É preciso manter a calma e controlar a hemorragia imediatamente; <br />
+                Pressione uma gaze ou pano limpo sobre o corte. Se ele não for tão profundo, o sangramento deve parar em alguns minutos. Em seguida lave a ferida com água e sabão; <br />
+                Caso a água não seja suficiente para remover a sujidade do corte, use uma gaze para retirar as partículas que ficaram coladas dentro do machucado; <br />
+                Se houver um pedaço de cristal ou outro objeto cravado no corte não tente retirá-lo, pode provocar uma hemorragia maior; <br />
+                Em casos de sangramento intenso, uma boa dica é elevar o membro para reduzir o fluxo de sangue; <br />
+                Com a compressa de gaze contendo o sangramento, o médico deverá ser consultado imediatamente para avaliar o corte e realizar uma sutura; <br />
+                Após a sutura, os curativos devem ser realizados para que a cicatrização seja eficaz. <br /><br />
+            </div>
+            <div class="cont1">
+
+                <h2>Dicas de cuidados gerais</h2><br />
+                Jamais coloque álcool, pomadas e outros produtos sobre o ferimento. Somente lave com água e sabão; <br />
+                Não assopre o ferimento para não contaminar o local; <br />
+                Procure ajuda médica se surgirem sinais de infecção na região do corte; <br />
+                Não use algodão para estancar o sangue, porque as fibras grudam na ferida e são difíceis de serem retiradas
+            </div>
+        </div>
+    </section>
+    <footer>
+        <small>
+            <p class="baixo">
+                @2018 copyright Luan & Antonio<br>
+                Termos | Privacidade & cookies | Primeiros-Socorros
+            </p>
+        </small>
+
+        <!-- BOTÃO -->
+        <div class="checkbox-btn">
+            <input type="checkbox" name="switch">
+            <div class="botao"><span class="slide"></span></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('input').click(function() {
+                    $('body').toggleClass('dark')
+                    $('header').toggleClass('dark')
+                    $('article').toggleClass('dark')
+                    $('section').toggleClass('dark4')
+                    $('footer').toggleClass('dark')
+                    $('div.trapezio').toggleClass('dark')
+                    $('div.botao').toggleClass('dark')
+                })
+            })
+
+        </script>
+        <script src="js/javinha.js"></script>
+        <!-- BOTÃO -->
+
+        <div class="ico">
+            <a href="http://www.youtube.com" target="_blank"> <i class="fab fa-youtube"></i> </a>
+            <a href="http://www.instagram.com" target="_blank"> <i class="fab fa-instagram"></i> </a>
+            <a href="http://www.twitter.com" target="_blank"> <i class="fab fa-twitter-square"></i> </a>
+            <a href="http://www.facebook.com" target="_blank"> <i class="fab fa-facebook"></i> </a>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+Num clube, dentre os 500 inscritos no departamento de natação, 30 são unicamente nadadores, entretento 310 também jogam futebol e 250 também jogam tênis. Os inscritos em natação que também praticam futebol e tênis são em número de:
+80
+90 correta
+100
+110
+
+Em um cubo, a quantidade de conjuntos distintos formados por duas arestas paralelas é igual a:
+6
+8
+12
+18 correta
+
+Um pacote tem 48 balas: algumas de hortelã e as demais de laranja. Se a terça parte correspondente ao dobro do número de balas de hortelã excede a metade do de laranjas em 4 unidades, determine o número de balas de hortelã e laranja.
+24 balas de hortelã e 24 de laranja. correta	
+12 balas de hortelã e 24 de laranja.	
+12 balas de hortelã e 12 de laranja.	
+20 balas de hortelã e 20 de laranja.
+
+Um avião percorreu a distância de 5 000 metros na posição inclinada, e em relação ao solo, percorreu 3 000 metros. Determine a altura do avião.
+4000 correta
+2000
+3200
+5000
+
+Calcule a metragem de arame utilizado para cercar um terreno triangular com as medidas perpendiculares de 60 e 80 metros, considerando que a cerca de arame terá 4 fios.
+240
+690
+960 correta
+420
+
+A compra foi entregue, embalada em 10 caixas, com 24 frascos em cada caixa. Sabendo-se que cada caixa continha 2 frascos de detergentes a mais no aroma limão do que no aroma coco, o número de frascos entregues, no aroma limão, foi:
+110
+120
+130 correta
+140
+
+A soma de um número x com o dobro de um número y é - 7; e a diferença entre o triplo desse número x e número y é igual a 7. Sendo assim, é correto afirmar que o produto xy é igual a:
+-10	
+-12	
+-15	
+-4 correta
+
+Um estudante pagou um lanche de 8 reais em moedas de 50 centavos e 1 real. Sabendo que, para este pagamento, o estudante utilizou 12 moedas, determine, respectivamente, moedas de 50 centavos e de um real que foram utilizadas no pagamento do lanche:
+6 e 6	
+8 e 4 correta	
+4 e 8	
+5 e 7
+
+Pedro e Paula são irmãos. Pedro tem 8 anos e a irmã é 2 anos mais velha que ele. Somando-se a idade dos dois e dobrando o resultado, tem-se a idade da mãe deles. Quantos anos a mão deles tem?
+36 anos correta
+22 anos	
+41 anos	
+26 anos
+
+A soma de um número com o seu antecessor é igual a 49. Qual é o menor desses números?
+21	
+23	
+22	
+24 correta
+
+As x pessoas de um grupo deveriam contribuir com quantias iguais a fim de arrecadar R$ 15 000,00 , entretanto 10 delas deixaram de fazê-lo, ocasionando, para as demais, um acréscimo de R$ 50,00 nas respectivas contribuições. Então x vale:
+60 correta	
+80	
+95	
+115

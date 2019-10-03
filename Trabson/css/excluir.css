@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/cidade.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}   
+
+#Layer_1{
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#btn_voltar{
+    position: fixed;
+    display: block;
+    background: rgba(255,255,255,0.5);
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    right: 20px;
+    bottom: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.1s linear;
+    z-index: 12;
+}
+
+#btn_voltar:hover{
+    background: rgba(0,0,0,0.9);
+}
+
+h1{
+    color:#fff;
+    letter-spacing: 5px;
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#boas_vindas {
+    position: relative;
+    font-family: calibri;
+    padding-top: 20px;
+    background-color: rgba(0,0,0,0.9);
+    width: 100%;
+    height:100px;
+    box-shadow: 10px 10px 10px rgba(12,12,0,0.5);
+}
+
+#formulario {
+    position: fixed;
+    font-family: calibri;
+    padding-top: 20px;
+    top: calc(100vh - 100px);
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height:100px;
+    z-index: 10;
+}
+
+#listar{
+    position: relative;
+    background-color: rgba(0,0,0,0.9);
+    box-shadow: 10px 10px 10px rgba(12,12,0,0.5);
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.respostas{
+    border-top:1px solid #fff;
+    color: rgba(255,255,255,0.8);
+}
+
+#table_listar{
+    width: 100%;
+    position: relative;
+    color:#fff;
+    padding: 20px 0px 40px 0px;
+    font-size: 20px;
+}
+
+td{
+    padding: 10px;
+}
+
+#titulo_tabela{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#titulo_pergunta{
+    border-top: 1px solid #fff;
+    font-size: 16px;
+    color: rgba(255,255,255, 1);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#table_alterar{
+    position: relative;
+    top:30px;
+    width: 100%;
+    color:#fff;
+    padding: 20px 0px 40px 0px;
+    font-size: 20px;
+    display: block;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+.cod{
+    position: relative;
+    color: #000;
+    outline: none;
+    border: none;
+    width: 60px;
+    border-radius: 5px;
+    padding: 3px 5px 3px 5px;
+    background: #fff;
+    font-size: 16px;
+    cursor: text;
+    transition: 0.2s linear;
+    text-align: center;
+}
+
+.cod::placeholder{
+    font-size: 12px;   
+}
+
+input[type="submit"]{
+    position: relative;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 70px;
+    border-radius: 5px;
+    padding: 3px;
+    background: rgba(255,255,255,0.5);
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+input[type="submit"]:hover{
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+#lixinho:hover path,
+#lixinho:hover rect{
+    fill: rgba(211, 8, 8, 1);
+}
+
+#promote:hover path,
+#promote:hover rect{
+    fill: rgba(252, 222, 0, 1);
+}
+
+#user_admin path,
+#user_admin rect{
+    fill: rgba(3, 165, 183,1);
+}

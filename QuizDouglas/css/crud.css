@@ -1,0 +1,139 @@
+body{
+	font-family:Caviar Dreams, myriad pro, arial;
+	background-color:#000;
+}
+
+.crud{
+	width:100px;
+	height:100px;
+	background:#f00;
+	margin:3%;
+	border-radius:10px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	transition:1s;
+}
+
+.crud:hover{
+	transform: rotate(360deg);
+}
+
+.sair{
+	width:200px;
+	height:100px;
+	bottom:0;
+	position:absolute;
+	left:50%;
+	margin-left:-25px;
+}
+
+.retornar{
+	width:300px;
+	height:100px;
+	bottom:0;
+	position:absolute;
+	margin-left:42%;
+}
+
+.sair a:hover{
+	color:#f00;
+}
+
+a	{
+	font-size:30px;
+	text-decoration:none;
+	color:#fff;
+	text-shadow:1px 1px 1px black;
+	bottom:0px;
+}
+
+.content{
+	height:600px;
+	width:800px;
+	background:rgba(255,255,255,0.8);
+	border-radius:25px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	position: absolute;
+	top: 50%;
+	margin-top: -350px; 
+	left: 50%;
+	margin-left: -400px;
+}
+
+.campotx{
+	margin-top:50px;
+	width:400px;
+	border:none;
+	border-bottom: 1px solid #f00;
+	font-family:Caviar Dreams, myriad pro, arial;
+	background:none;
+	transition: 0.2s linear;
+	padding-left:5px;
+	color:#000;
+}
+
+.campotx:focus,
+.campotx:valid{
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    font-size:13px;
+	outline:none;
+	border-radius:10px;
+	
+}
+.campotx::placeholder{
+	color:#000;
+}
+
+.campotx:focus::placeholder{
+	opacity:0;
+	
+}
+
+.botao{
+	height:25px;
+	width:80px;
+	margin-top:65px;
+	border-radius:5px;
+	font-weight:bold;
+	background:#f00;
+	border:0px;
+	font-size:13px;
+	box-shadow:1px 1px 1px black;
+	margin-left:40%;
+}
+.botao:hover{
+	font-weight:none;
+	background-color: rgba(150,0,0);
+	color:#fff;
+}
+
+.tread{
+	width:1000px;
+	background-color:rgba(255,255,255,1);
+	border-radius:10px;
+	font-size:15px;
+	margin-top: 2%; 
+	position: absolute;
+	margin-top:1%; 
+	left: 50%;
+	margin-left: -500px;
+}
+
+ tr, td {
+  border: 1px solid rgba(255,0,0,0.7);
+  border-radius:10px;
+}
+
+.indice{
+	background:rgba(255,0,0,0.4);
+}
